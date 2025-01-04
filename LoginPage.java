@@ -10,8 +10,7 @@ public class LoginPage {
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH); // Start maximized
         frame.setLayout(new BorderLayout());
 
-        // Left panel for login form
-        JPanel leftPanel = new JPanel();
+        JPanel leftPanel = new JPanel():
         leftPanel.setBackground(Color.WHITE);
         leftPanel.setLayout(new GridBagLayout());
         frame.add(leftPanel, BorderLayout.WEST);
